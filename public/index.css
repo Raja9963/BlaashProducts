@@ -1,0 +1,75 @@
+.box{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  margin-left: 15px;
+}
+
+.vi{
+  border-radius: 10px;
+}
+
+
+
+.title{
+  width: 95%;
+  height: 90px;
+  border-radius: 5px;
+  background-color: rgb(104, 99, 99);
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+p{
+  margin: 0px;
+  padding: 10px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 10 px;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+
+
+/* Slider controls */
+.slider-control {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.slider-control button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+h1{
+  font-weight: 600;
+  padding: 20px;
+}
+
+
